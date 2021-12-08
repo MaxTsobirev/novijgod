@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Tsõbirev PHP Leht</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="NG.js"></script>
+
+
+</head>
+<body>
+<main>
+
+    <h1>Jõulukaart</h1>
+    <div>
+        <canvas id="tahvel" width="600" height="400"
+                style="background-color:lightskyblue;border:1px solid black; position: absolute; margin-top: 100px"></canvas>
+            <canvas id="canvas"  style="position: absolute; width: 600px; height: 400px; margin-top: 100px"></canvas>
+    </div>
+        <script src="NG.js"></script>
+    <br>
+    <input type="button" value="Kustuta" onclick="kustuta()">
+    <br>
+    <input type="button" value="jolka" onclick="joonistajolka()">
+    <input type="button" value="gerljanda" onclick="joonistagerljanda()">
+    <input type="button" value="sneg" onclick="joonistasneg()">
+
+    <br>
+    <input type="button" value="Full image" onclick="joonistaFull()">
+
+</main>
+<footer>
+    <div class="footer">
+        2021 | See leht tegi Maksim     </div>
+</footer>
+
+</body>
+</html>
